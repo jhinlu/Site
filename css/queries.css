@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+    .pagination-lg .page-link {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+
+    .pagination-lg .page-item:first-child .page-link {
+        border-top-left-radius: 0.2rem;
+        border-bottom-left-radius: 0.2rem;
+    }
+
+    .pagination-lg .page-item:last-child .page-link {
+        border-top-left-radius: 0.2rem;
+        border-bottom-left-radius: 0.2rem;
+    }
+
+    .img-size {
+        width: 400px;
+        height: 200px;
+        display: block;
+        margin: auto;
+    }
+}
